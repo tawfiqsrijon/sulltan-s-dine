@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+bower_components/
+
+# Build directories
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Compiled files
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Backup files
+*~
+*.swp
+*.bak
+
+# Coverage reports
+coverage/
+*.lcov

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Sultan's Dine</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="holder">
+        <div class="header-container">
+          <div class="left-section">
+            <a href="/index.html" class="logo"> Sultan's Dine </a>
+          </div>
+          <nav class="nav-links">
+            <a href="/index.html" class="nav-item active">Home</a>
+            <a href="/about.html" class="nav-item">About us</a>
+            <a href="/menu.html" class="nav-item">menu</a>
+            <a href="/gallery.html" class="nav-item">gallery</a>
+            <a href="/contact.html" class="nav-item">contact us</a>
+            <a href="/review.html" class="nav-item">user review</a>
+          </nav>
+
+          <div class="mobile-menu-toggle">
+            <button onclick="toggleMenu()" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/menu.html">menu</a></li>
+          <li><a href="/gallery.html">gallery</a></li>
+          <li><a href="/contact.html">contact us</a></li>
+          <li><a href="/review.html">user review</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+
+    <div class="hero-slider" data-carousel>
+      <div
+        class="carousel-cell"
+        style="
+          background-image: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        "
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">BEST FOOD IN TOWN</h2>
+          <a href="#" target="_blank" class="btn">ORDER NOW</a>
+        </div>
+      </div>
+      <div
+        class="carousel-cell"
+        style="
+          background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        "
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">BEST FOOD IN TOWN</h2>
+          <a href="#" target="_blank" class="btn">ORDER NOW</a>
+        </div>
+      </div>
+      <div
+        class="carousel-cell"
+        style="
+          background-image: url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        "
+      >
+        <div class="overlay"></div>
+        <div class="inner">
+          <h2 class="title">BEST FOOD IN TOWN</h2>
+          <a href="#" target="_blank" class="btn">ORDER NOW</a>
+        </div>
+      </div>
+    </div>
+    <!-- <section>
+      <div class="holder">
+        <h2 style="text-align: center">
+          This food available in our restaurant
+        </h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/1448721/pexels-photo-1448721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5163948/pexels-photo-5163948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/16415979/pexels-photo-16415979/free-photo-of-chocolate-cake-with-fruit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 2"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/7491913/pexels-photo-7491913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 3"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/11752158/pexels-photo-11752158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 4"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/11001412/pexels-photo-11001412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 5"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/28848711/pexels-photo-28848711/free-photo-of-delicious-chocolate-cheesecake-slice-on-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <footer class="footer">
+      <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+          <span> About the company</span> Ut congue augue non tellus bibendum,
+          in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus
+          odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer
+          tellus est, vehicula eu lectus tincidunt, ultricies feugiat leo.
+          Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue.
+          Nam ut nibh mollis, tristique ante sed, viverra massa.
+        </p>
+        <div class="icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span> Street name and number</span> City, Country</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>(+00) 0000 000 000</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#"> office@company.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right col-md-4 col-sm-6">
+        <h2>Company<span> logo</span></h2>
+        <p class="menu">
+          <a href="#"> Home</a> | <a href="#"> About US</a> |
+          <a href="#"> menu</a> | <a href="#"> Gallery</a> |
+          <a href="#"> Contact Us</a> |
+          <a href="#"> Reviews</a>
+        </p>
+        <p class="name">Company Name &copy; 2016</p>
+      </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ↑
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

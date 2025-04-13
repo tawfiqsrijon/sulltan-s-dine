@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css"
+    />
+    <title>About | Sultan's Dine</title>
+  </head>
+  <body>
+    <header class="header2">
+      <div class="holder">
+        <div class="header-container">
+          <div class="left-section">
+            <a href="/index.html" class="logo"> Sultan's Dine </a>
+          </div>
+          <nav class="nav-links">
+            <a href="/index.html" class="nav-item active">Home</a>
+            <a href="/about.html" class="nav-item">About us</a>
+            <a href="/menu.html" class="nav-item">menu</a>
+            <a href="/gallery.html" class="nav-item">gallery</a>
+            <a href="/contact.html" class="nav-item">contact us</a>
+            <a href="/review.html" class="nav-item">user review</a>
+          </nav>
+
+          <div class="mobile-menu-toggle">
+            <button onclick="toggleMenu()" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/menu.html">menu</a></li>
+          <li><a href="/gallery.html">gallery</a></li>
+          <li><a href="/contact.html">contact us</a></li>
+          <li><a href="/review.html">user review</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+
+    <div class="holder">
+      <div class="review-section">
+        <h2>⭐ Customer Reviews</h2>
+
+        <div class="review">
+          <div class="review-header">
+            <strong>Rahman A.</strong>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">
+            Absolutely loved the Kacchi Biryani! Tender meat, flavorful rice,
+            and generous portion. Will visit again!
+          </p>
+        </div>
+
+        <div class="review">
+          <div class="review-header">
+            <strong>Fatema K.</strong>
+            <span class="stars">★★★★☆</span>
+          </div>
+          <p class="review-text">
+            The Polao platter was delicious, but the Borhani could be colder.
+            Overall great experience.
+          </p>
+        </div>
+
+        <div class="review">
+          <div class="review-header">
+            <strong>Mahmud H.</strong>
+            <span class="stars">★★★★★</span>
+          </div>
+          <p class="review-text">
+            Best kacchi in town, hands down. Perfectly spiced and the beef
+            rezala was top-notch!
+          </p>
+        </div>
+      </div>
+    </div>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ↑
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

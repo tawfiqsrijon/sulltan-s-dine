@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css"
+    />
+    <title>Contact | Sultan's Dine</title>
+  </head>
+  <body>
+    <header class="header2">
+      <div class="holder">
+        <div class="header-container">
+          <div class="left-section">
+            <a href="/index.html" class="logo"> Sultan's Dine </a>
+          </div>
+          <nav class="nav-links">
+            <a href="/index.html" class="nav-item active">Home</a>
+            <a href="/about.html" class="nav-item">About us</a>
+            <a href="/menu.html" class="nav-item">menu</a>
+            <a href="/gallery.html" class="nav-item">gallery</a>
+            <a href="/contact.html" class="nav-item">contact us</a>
+            <a href="/review.html" class="nav-item">user review</a>
+          </nav>
+
+          <div class="mobile-menu-toggle">
+            <button onclick="toggleMenu()" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/menu.html">menu</a></li>
+          <li><a href="/gallery.html">gallery</a></li>
+          <li><a href="/contact.html">contact us</a></li>
+          <li><a href="/review.html">user review</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Contact US</h3>
+
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Phone Number" type="tel" tabindex="3" required />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Website URL"
+            type="url"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Message Here..."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ↑
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

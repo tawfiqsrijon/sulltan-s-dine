@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css"
+    />
+    <title>Menu | Sultan's Dine</title>
+  </head>
+  <body>
+    <header class="header2">
+      <div class="holder">
+        <div class="header-container">
+          <div class="left-section">
+            <a href="/index.html" class="logo"> Sultan's Dine </a>
+          </div>
+          <nav class="nav-links">
+            <a href="/index.html" class="nav-item active">Home</a>
+            <a href="/about.html" class="nav-item">About us</a>
+            <a href="/menu.html" class="nav-item">menu</a>
+            <a href="/gallery.html" class="nav-item">gallery</a>
+            <a href="/contact.html" class="nav-item">contact us</a>
+            <a href="/review.html" class="nav-item">user review</a>
+          </nav>
+
+          <div class="mobile-menu-toggle">
+            <button onclick="toggleMenu()" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/menu.html">menu</a></li>
+          <li><a href="/gallery.html">gallery</a></li>
+          <li><a href="/contact.html">contact us</a></li>
+          <li><a href="/review.html">user review</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+
+    <div class="menu-container">
+      <h1>🍽️ Sultan’s Dine Menu</h1>
+
+      <h2>🥘 Kacchi Biryani</h2>
+      <div class="menu-item">
+        <span>Kacchi (Half)</span><span class="price">৳299 – ৳799</span>
+      </div>
+      <div class="menu-item">
+        <span>Kacchi (Full)</span><span class="price">৳499 – ৳3,349</span>
+      </div>
+      <div class="menu-item">
+        <span>Kacchi Platter</span><span class="price">৳999 – ৳4,449</span>
+      </div>
+
+      <h2>🍛 Polao & Wedding Specials</h2>
+      <div class="menu-item">
+        <span>Polao + Chicken Roast + Borhani</span
+        ><span class="price">৳299 – ৳1,350</span>
+      </div>
+      <div class="menu-item">
+        <span>Plain Polao Platter</span><span class="price">৳649 – ৳3,099</span>
+      </div>
+
+      <h2>🍖 Curries & Add-ons</h2>
+      <div class="menu-item">
+        <span>Chicken Roast</span><span class="price">৳150</span>
+      </div>
+      <div class="menu-item">
+        <span>Beef Rezala</span><span class="price">৳200</span>
+      </div>
+      <div class="menu-item">
+        <span>Jali Kabab</span><span class="price">৳60</span>
+      </div>
+      <div class="menu-item">
+        <span>Plain Polao (Side)</span><span class="price">৳120</span>
+      </div>
+      <div class="menu-item">
+        <span>Chutney</span><span class="price">৳25</span>
+      </div>
+
+      <h2>🍚 Tehari & Biryani</h2>
+      <div class="menu-item">
+        <span>Mutton Tehari</span><span class="price">৳250 – ৳439</span>
+      </div>
+      <div class="menu-item">
+        <span>Chicken Dum Biryani</span><span class="price">৳199</span>
+      </div>
+
+      <h2>🍮 Desserts & Beverages</h2>
+      <div class="menu-item">
+        <span>Firni</span><span class="price">৳70</span>
+      </div>
+      <div class="menu-item">
+        <span>Jorda</span><span class="price">৳70</span>
+      </div>
+      <div class="menu-item">
+        <span>Borhani (Glass)</span><span class="price">৳70</span>
+      </div>
+      <div class="menu-item">
+        <span>Zafrani Sharbat</span><span class="price">৳90</span>
+      </div>
+      <div class="menu-item">
+        <span>Soft Drinks</span><span class="price">৳40</span>
+      </div>
+    </div>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ↑
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

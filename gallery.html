@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css"
+    />
+    <title>Gallery | Sultan's Dine</title>
+  </head>
+  <body>
+    <header class="header2">
+      <div class="holder">
+        <div class="header-container">
+          <div class="left-section">
+            <a href="/index.html" class="logo"> Sultan's Dine </a>
+          </div>
+          <nav class="nav-links">
+            <a href="/index.html" class="nav-item active">Home</a>
+            <a href="/about.html" class="nav-item">About us</a>
+            <a href="/menu.html" class="nav-item">menu</a>
+            <a href="/gallery.html" class="nav-item">gallery</a>
+            <a href="/contact.html" class="nav-item">contact us</a>
+            <a href="/review.html" class="nav-item">user review</a>
+          </nav>
+
+          <div class="mobile-menu-toggle">
+            <button onclick="toggleMenu()" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/menu.html">menu</a></li>
+          <li><a href="/gallery.html">gallery</a></li>
+          <li><a href="/contact.html">contact us</a></li>
+          <li><a href="/review.html">user review</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+    <section>
+      <div class="holder">
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/1448721/pexels-photo-1448721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/5163948/pexels-photo-5163948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/16415979/pexels-photo-16415979/free-photo-of-chocolate-cake-with-fruit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 2"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/7491913/pexels-photo-7491913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 3"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/11752158/pexels-photo-11752158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 4"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/11001412/pexels-photo-11001412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 5"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/28848711/pexels-photo-28848711/free-photo-of-delicious-chocolate-cheesecake-slice-on-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Gallery Image 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ↑
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
